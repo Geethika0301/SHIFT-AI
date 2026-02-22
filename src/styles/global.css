@@ -1,0 +1,104 @@
+/* =========================
+   GLOBAL RESET
+   ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   BASE PAGE STYLES
+   ========================= */
+
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6fb;
+  color: #222;
+}
+
+/* =========================
+   LINKS
+   ========================= */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   BUTTONS (GENERIC)
+   ========================= */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  background-color: #2563eb;
+  color: white;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* =========================
+   INPUTS & TEXTAREA
+   ========================= */
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+/* =========================
+   TABLE BASE STYLES
+   ========================= */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #e5e7eb;
+}
+
+/* =========================
+   UTILITY CLASSES
+   ========================= */
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
